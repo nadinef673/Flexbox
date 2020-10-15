@@ -1,0 +1,77 @@
+.rob1 {
+  border: 15px red solid;
+  padding: 50px;
+  margin: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: large;
+  background-color: ;
+}
+
+.rob2 {
+  border: 15px blue solid;
+  padding: 50px;
+  margin: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: large;
+}
+
+.rob3 {
+  border: 15px purple solid;
+  padding: 50px;
+  margin: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: large;
+}
+
+.rob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: yellowgreen;
+}
+
+}
+
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.row {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  /*   width: 600px; */
+}
+
+.card {
+  background: purple;
+  border: 1px solid white;
+  margin: 0 0 2em 0;
+  width: 420px;
+  height: 150px;
+}
+.card {
+  text-align: center;
+  border-radius: 20px;
+  background: #563c40;
+  box-shadow: 20px 20px 60px #cf485e, -20px -20px 60px #ff6280;
+}
